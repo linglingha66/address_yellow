@@ -1,0 +1,104 @@
+.big_wrap{
+	width: 500px;
+	height:400px;
+	position: relative;
+	background:white;
+	margin: auto ;
+}
+.wrap{
+	display: none;
+}
+.top{
+	position: absolute;
+	top:16px;
+	left:58px;
+	border:1px solid orange;
+	padding:0px 5px;
+}
+.text_top{
+	float: left;
+	padding: 0px 12px;
+}
+.pic{
+	background: url(下箭头.png) no-repeat;
+	width: 9px;
+	height:6px;
+	float: left;
+	position: absolute;
+	top:7px;
+	/*left:132px;*/
+	cursor: pointer;
+}
+.wrap{
+	width:400px;
+	position: absolute;
+	top: 60px;
+    left:50px;
+    padding: 10px 15px;
+    background-color: #fcaeec;
+  	border: 1px solid #CECBCE;
+  	box-shadow: 0 0 5px #ddd;
+}
+.tit{
+	width: 100%;
+	height: 28px;
+    float: left;
+    border-bottom: 2px solid gray;
+    overflow: visible;
+}
+.tit li{
+	display: inline-block;
+	/*width:80px;*/
+	text-align: center;
+	line-height: 36px;
+	 padding: 0px 16px 0px 16px;
+}
+.tab_tit{
+	overflow:hidden;
+	margin-bottom: 8px;
+}
+.text_tit{
+	color:#005aa0;
+	font:bold 14px/14px "Microsoft YaHei";
+}
+.hover{
+	height: 28px;
+    background-color: #f99ae6;
+    border: 2px solid gray;
+    border-bottom: 0;
+    padding: 0px 16px 0px 16px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.tab_con ul{
+	display: none;
+}
+.tab_con ul:first-child{
+	display: block;
+}
+.con0 li,.con1 li,.con2 li,.con3 li{
+	display: inline-block;
+}
+.li_con0 a,.li_con1 a,.li_con2 a,.li_con3 a{
+	color: #333;
+	font:12px "Microsoft YaHei";
+}
+.li_con0{
+    width: 3.4em;
+    margin:0px 5px 5px 27px;
+}
+.li_con1{
+    width: 6.4em;
+    margin:0px 5px 5px 27px;
+}
+.li_con2{
+    width: 6.4em;
+    margin:0px 5px 5px 27px;
+}
+.li_con3{
+    width: 6.4em;
+    margin:0px 5px 5px 27px;
+}
+

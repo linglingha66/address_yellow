@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>地址栏三级联动</title>
+	<link rel="stylesheet" href="three_linkage.css"/>
+	<link rel="stylesheet" href="reset.css"/>
+</head>
+<body>
+	<script src="json2.js"></script>
+	<div class="big_wrap"></br>配送至：
+		<!--整体框-->
+		<div class="top">
+			<div class="pic" id="pic"></div>
+			<div class="text_top" id="text_top">北京北京市东城区</div>
+		</div>
+		<div class="wrap" style="" id="wrap">
+		<!--tab标题div-->
+			<div class="tab_tit">
+				<ul class="tit clearfix" id="tit">
+					<li class="li_tit"> 
+						<a href="#none" class="text_tit" >北京</a>
+					</li>
+					<li class="li_tit" style="">
+						<a href="#none" class="text_tit" title="">北京市</a>
+					</li>
+					<li  class="li_tit" style="">
+						<a href="#none" class="text_tit" title="">东城区</a>
+					</li>
+					<li style="display: none;" class="li_tit"> 
+						<a href="#none" class="text_tit" >请选择</a>
+					</li>
+				</ul>
+		 	</div>
+		<!--tab内容0的div-->
+			<div class="tab_con" id="tab_con">
+				<ul id="con0" class="con0" ></ul>
+		<!--tab内容1的div-->
+				<ul id="con1" class="con1"></ul>
+		<!--tab内容2的div-->
+				<ul id="con2" class="con2"></ul>
+		<!--tab内容3的div-->
+				<ul id="con3" class="con3" style="display:none;">请选择</ul>
+			</div>
+		</div>
+	</div>
+	<script src="Tab_self_json.js"></script>
+	<script src="three_linkage_json.js"></script>
+</body>
+</html>
